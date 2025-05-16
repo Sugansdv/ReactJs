@@ -1,0 +1,16 @@
+.profile-card {
+  border: 2px solid green;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 20%;
+  background-color: palegreen;
+}
+.profile-card h2 {
+  font-size: 2em;
+  color: orangered;
+}
+.profile-card p {
+  font-size: 1.5em;
+  margin: 10px 0;
+}

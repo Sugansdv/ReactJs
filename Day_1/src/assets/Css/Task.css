@@ -1,0 +1,5 @@
+/* Task 12. Use an external CSS file to style a heading. */
+h3 {
+  color: green;
+  font-size: 2em;
+}

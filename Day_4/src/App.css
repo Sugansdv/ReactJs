@@ -1,0 +1,33 @@
+main {
+  margin: 150px 0;
+  text-align: center;
+}
+
+.prop-ans ul li{
+  list-style: none;
+}
+
+.hobby-list{
+  list-style: none;
+}
+
+.card {
+border: 1px solid #ccc;
+border-radius: 12px;
+padding: 20px;
+background-color: azure;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+width: 20%;
+margin: 10px auto;
+}
+
+.card-title {
+font-size: 1.5em;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+.card-description {
+font-size: 1.2em;
+color: rgb(100, 99, 99);
+}

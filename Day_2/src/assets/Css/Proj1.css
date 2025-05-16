@@ -1,0 +1,15 @@
+.profile-card{
+    text-align: center;
+    background-color: aquamarine;
+    width: 30%;
+    margin: 20px auto;
+    padding: 20px;
+}
+.profile-name{
+    Color: darkblue;
+    font-weight: bold;
+    font-size: 2em;
+}
+.profile-location{
+    color: green;
+}
