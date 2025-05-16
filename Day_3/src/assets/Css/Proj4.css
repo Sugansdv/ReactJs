@@ -1,0 +1,12 @@
+
+.timer-container{
+    border: 2px solid blue;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+}
+.time-display {
+  font-size: 3em;
+  color: brown;
+  font-weight: bold;
+}

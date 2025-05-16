@@ -1,0 +1,9 @@
+.welcome-message {
+  background-color: lightblue;
+  padding: 20px;
+  font-size: 2em;
+  border-radius: 8px;
+  font-weight: bold;
+  width: 30%;
+  margin: 20px auto;
+}
