@@ -1,0 +1,38 @@
+main {
+  margin: 150px 0;
+}
+
+.completed {
+  color: green;
+  text-decoration: line-through;
+}
+
+.pending {
+  color: red;
+  text-decoration: none;
+}
+.tech-list {
+  list-style-type: none;
+  max-width: 200px;
+  margin: 20px auto;
+}
+
+.tech-item {
+  margin: 8px 0;
+  cursor: pointer;
+  padding: 10px 15px;
+  border: 1px solid black;
+  border-radius: 6px;
+  background-color: darkgreen;
+  color: antiquewhite;
+  transition: background-color 0.25s ease;
+}
+
+.tech-item:hover {
+  background-color: darkolivegreen;
+}
+.hero-text{
+  text-align: center;
+}
+
+

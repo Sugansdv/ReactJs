@@ -1,0 +1,18 @@
+
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.task-name{
+  text-align: center;
+}
+
+.stud-list {
+  border: 2px solid darkgreen;
+  Padding: 30px;
+}
+.stud-list  li{
+  Padding: 10px 20px;
+}

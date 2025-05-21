@@ -1,0 +1,28 @@
+.task-container {
+ border: 2px solid green;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 30%;
+  background-color: palegreen;
+}
+
+.task-container h2 {
+   font-size: 2em;
+  color: royalblue;
+}
+
+.task-list {
+  border: 2px solid darkgreen;
+  padding:20px 30px;
+  list-style-type: circle;
+}
+
+.task-item {
+  font-size: 1.5em;
+  margin: 10px 0;
+  text-align: start;
+}
+.task-list li{
+  padding: 10px 20px;
+}

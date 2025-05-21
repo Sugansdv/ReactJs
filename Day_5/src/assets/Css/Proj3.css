@@ -1,0 +1,13 @@
+
+.time-text{
+    font-size: 2em;
+    color: brown;
+    font-weight: bold;
+}
+.center-container{
+    width: 50%;
+    margin: 20px auto;
+}
+.proj3{
+    text-align: center;
+}

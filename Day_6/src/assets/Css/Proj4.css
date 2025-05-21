@@ -1,0 +1,24 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.toggle-btn {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid #333;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.toggle-btn.off {
+  background-color: #555;
+  color: #eee;
+}
+
+.toggle-btn.on {
+  background-color: #ffeb3b;
+  color: #333;
+}
