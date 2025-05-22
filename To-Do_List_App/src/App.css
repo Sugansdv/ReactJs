@@ -1,0 +1,48 @@
+
+.container {
+  max-width: 900px;
+  padding: 20px;
+  background: #f8e3e3;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+
+.list-group-item {
+  font-size: 1.2em;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+  background-color: lightsteelblue;
+}
+
+.form-check-input {
+  cursor: pointer;
+}
+
+.btn-danger:hover {
+  background-color: orangered;
+}
+
+
+form input[type="text"],
+form input[type="date"],
+form select {
+  border-radius: 10px;
+  border: 1.5px solid #ced4da;
+  padding: 5px 12px;
+  font-size: 1.2em;
+}
+
+form button[type="submit"]:hover {
+  background-color: #084298;
+}
+
+select.form-select {
+  border-radius: 10px;
+  border: 1.5px solid #ced4da;
+  padding: 6px 10px;
+  font-size: 1.2em;
+}
