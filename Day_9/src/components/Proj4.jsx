@@ -1,41 +1,23 @@
-import React, { useState } from 'react';
+import React from 'react';
 
-function Proj4() {
-  const users = [
-    'Dharun ',
-    'Vishwa',
-    'Sugan',
-    'Anu',
-  ];
-
-  const [searchTerm, setSearchTerm] = useState('');
-
-  const filteredUsers = users.filter(user =>
-    user.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+const Proj4 = () => {
+  const numbers = Array.from({ length: 10 }, () => Math.floor(Math.random() * 100) + 1);
 
   return (
-    <div className="search-filter">
-      <h2>User Search Filter</h2>
-      <input
-        type="text"
-        placeholder="Search users by name..."
-        value={searchTerm}
-        onChange={e => setSearchTerm(e.target.value)}
-        className="search-input"
-      />
-
-      <ul className="user-list">
-        {filteredUsers.length > 0 ? (
-          filteredUsers.map((user, index) => (
-            <li key={index}>{user}</li>
-          ))
-        ) : (
-          <li>No users found</li>
-        )}
+    <>
+    <h2>Mini Project 4: Dynamic Number List</h2>
+      <h2 className="heading">Numbers Greater Than 50</h2>
+      <ul className="number-list">
+        {numbers
+          .filter(num => num > 50)
+          .map((num, index) => (
+            <React.Fragment key={index}>
+              <li>{num}</li>
+            </React.Fragment>
+          ))}
       </ul>
-    </div>
+    </>
   );
-}
+};
 
 export default Proj4;

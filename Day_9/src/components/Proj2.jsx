@@ -1,28 +1,36 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-function Proj2() {
-   // State to hold the users data
-  const [users, setUsers] = useState([]);
-
-  // Fetch users from API when component mounts
-  useEffect(() => {
-    fetch('https://jsonplaceholder.typicode.com/users')
-      .then(res => res.json())  // Convert response to JSON
-      .then(data => setUsers(data));  // Save data in state
-  }, []);  // Empty array means this runs only once
+const Proj2 = () => {
+  const users = [
+    { id: 1, name: 'Dharun', age: 24 },
+    { id: 2, name: 'Sugan', age: 30 },
+    { id: 3, name: 'Vishwa', age: 28 },
+  ];
 
   return (
-    <div className="userlist-container">
-      <h2>User List</h2>
-      <ul className="userlist">
-        {users.map(user => (
-          <li key={user.id}>
-            {user.name} — {user.email}
-          </li>
-        ))}
-      </ul>
-    </div>
+    <>
+      <h2>Mini Project 2: User Table</h2>
+      <h2 className="heading">User Table</h2>
+      <table className="user-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+          </tr>
+        </thead>
+        <tbody>
+          {users.map(user => (
+            <React.Fragment key={user.id}>
+              <tr>
+                <td>{user.name}</td>
+                <td>{user.age}</td>
+              </tr>
+            </React.Fragment>
+          ))}
+        </tbody>
+      </table>
+    </>
   );
-}
+};
 
 export default Proj2;

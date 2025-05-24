@@ -8,19 +8,7 @@ import Proj3 from './components/Proj3';
 import Proj4 from './components/Proj4';
 import './App.css';
 
-function Timer() {
-  const [showTimer, setShowTimer] = useState(true);
 
-  return (
-    <div className="container">
-      <h1></h1>
-      <button className="timer-btn" onClick={() => setShowTimer(!showTimer)}>
-        {showTimer ? 'Hide' : 'Show'} Timer
-      </button>
-      {showTimer && <Proj3 />}
-    </div>
-  );
-}
 
 function App() {
   return (
@@ -33,7 +21,7 @@ function App() {
             <Route path="/Task" element={<Task />} />
             <Route path="/Proj1" element={<Proj1 />} />
             <Route path="/Proj2" element={<Proj2 />} />
-            <Route path="/Proj3" element={<Timer />} />
+            <Route path="/Proj3" element={<Proj3 />} />
             <Route path="/Proj4" element={<Proj4 />} />
           </Routes>
         </main>

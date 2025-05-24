@@ -44,45 +44,51 @@ table{
   background-color: green;
 }
 
-
-.userlist {
-  list-style: none;  
+.heading {
+  text-align: center;
+  margin-bottom: 10px;
 }
 
-.userlist li {
-  padding: 10px 0;
-  border-bottom: 1px solid #ccc;  
+.user-table {
+  width: 50%;
+  margin: auto;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
 }
 
- .timer-btn{
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  background-color: lemonchiffon;
-}
-
-.timer h2 {
-  color: green;
-}
-
-
-.search-filter {
-  max-width: 400px;
-  margin: 40px auto;
-}
-
-.search-input {
+.user-table th,
+.user-table td {
+  border: 1px solid #ccc;
   padding: 8px;
-  width: 100%;
-  font-size: 16px;
-  margin-bottom: 20px;
+  text-align: center;
 }
 
-.user-list {
+
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+  width: 60%;
+  margin: auto;
+}
+
+.task-list li {
+  background-color: #bdebf4;
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+.number-list {
   list-style: none;
+  padding: 0;
+  width: 50%;
+  margin: auto;
+  text-align: center;
 }
 
-.user-list li {
+.number-list li {
+  background: #d0f0ff;
+  margin: 5px 0;
   padding: 8px;
-  border-bottom: 1px solid #ccc;
+  border-radius: 4px;
 }
