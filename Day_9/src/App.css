@@ -1,0 +1,88 @@
+main {
+  margin: 150px 0;
+  text-align: center;
+}
+
+ul {
+  display: inline-block; 
+  text-align: left; 
+}
+.title {
+  color: navy;
+  font-weight: bold;
+}
+table{
+  width: 30%;
+  margin: auto;
+
+}
+
+.description {
+  color: gray;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+
+
+
+
+
+.btn {
+  background-color: darkgreen;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 0 5px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: green;
+}
+
+
+.userlist {
+  list-style: none;  
+}
+
+.userlist li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;  
+}
+
+ .timer-btn{
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: lemonchiffon;
+}
+
+.timer h2 {
+  color: green;
+}
+
+
+.search-filter {
+  max-width: 400px;
+  margin: 40px auto;
+}
+
+.search-input {
+  padding: 8px;
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.user-list {
+  list-style: none;
+}
+
+.user-list li {
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
